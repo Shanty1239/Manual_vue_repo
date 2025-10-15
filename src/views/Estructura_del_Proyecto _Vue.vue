@@ -230,7 +230,7 @@
 
             <div class="style2">
                 <div class="estruct_img">
-                    <img src="../assets/estructuras/img12.png" alt="imagen quasar" />
+                    <img src="../assets/estructuras/img11.png" alt="imagen quasar" />
                 </div>
                 <div class="text2">
                     <h2>Resumen</h2>
