@@ -15,6 +15,12 @@
       Estructura del <br>Proyecto Vue
     </router-link>
 
+    <router-link to="/componentes">
+      <span><img src="../assets/icons/icons3.png" alt="" /></span>
+      Estructura del <br>Proyecto Vue
+    </router-link>
+
+
   </nav>
 </template>
 
