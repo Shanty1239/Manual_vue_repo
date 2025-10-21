@@ -20,7 +20,7 @@
                         que hacen que todo funcione
                     </h3>
                     <p>La estructura básica se ve así:</p>
-                    <img src="../assets/estructuras/ejemplo1.png" alt="">
+                    <img src="../assets/estructuras/ejemplo1.jpeg" alt="">
                     <h3>Cada una de estas partes tiene una función muy importante. Vamos a explicarlas una por una.</h3>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         - Los scripts o comandos (como npm run dev o npm run build)<br>
                     </h3>
                     <p>Ejemplo:</p>
-                    <img src="../assets/estructuras/ejemplo3.png" alt="">
+                    <img src="../assets/estructuras/ejemplo3.jpeg" alt="">
                 </div>
             </div>
 
@@ -100,7 +100,7 @@
                         Piensa en “src” como el corazón del proyecto.
                     </h3>
                     <p>Ejemplo:</p>
-                    <img src="../assets/estructuras/ejemplo5.png" alt="">
+                    <img src="../assets/estructuras/ejemplo5.jpeg" alt="">
                     <h3>Veamos qué hace cada cosa.</h3>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                         navegador.
                     </h3>
                     <p>Ejemplo de su contenido:</p>
-                    <img src="../assets/estructuras/ejemplo6.png" alt="">
+                    <img src="../assets/estructuras/ejemplo6.jpeg" alt="">
                     <h3>
                         Esto le dice a Vue: crea una nueva aplicación con el componente principal App.vue y colócala
                         dentro
@@ -144,7 +144,7 @@
                         Desde aquí se cargan todos los demás componentes.
                     </h3>
                     <p>Ejemplo:</p>
-                    <img src="../assets/estructuras/ejemplo7.png" alt="">
+                    <img src="../assets/estructuras/ejemplo7.jpeg" alt="">
                     <h3>Veamos qué hace cada cosa.</h3>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                         Por ejemplo, podrías tener “logo.png” o “estilos.css”.
                     </h3>
                     <p>Ejemplo de su contenido:</p>
-                    <img src="../assets/estructuras/ejemplo8.png" alt="">
+                    <img src="../assets/estructuras/ejemplo8.jpeg" alt="">
 
                 </div>
             </div>
@@ -182,7 +182,7 @@
                         formulario.
                     </h3>
                     <p>Ejemplo:</p>
-                    <img src="../assets/estructuras/ejemplo9.png" alt="">
+                    <img src="../assets/estructuras/ejemplo9.jpeg" alt="">
 
                 </div>
             </div>
@@ -194,6 +194,7 @@
                 </div>
                 <div class="text2">
                     <h2>Cómo Vue usa estos archivos</h2>
+                    
                     <p>Cuando ejecutas “npm run dev”, pasa lo siguiente:</p>
                     <h3>
                         1. Vite lee “vite.config.js” para saber cómo iniciar el proyecto.<br>
@@ -234,19 +235,19 @@
                 </div>
                 <div class="text2">
                     <h2>Resumen</h2>
-                    
+
                     <h3>
                         - La estructura del proyecto Vue tiene carpetas y archivos con funciones específicas.<br>
-- “index.html” es la entrada principal.<br>
-- “main.js” monta la aplicación.<br>
-- “App.vue” es el componente raíz.<br>
-- “assets/” guarda recursos estáticos como imágenes.<br>
-- “components/” guarda tus componentes personalizados.<br>
-- Todo trabaja junto para formar tu aplicación Vue.<br>
+                        - “index.html” es la entrada principal.<br>
+                        - “main.js” monta la aplicación.<br>
+                        - “App.vue” es el componente raíz.<br>
+                        - “assets/” guarda recursos estáticos como imágenes.<br>
+                        - “components/” guarda tus componentes personalizados.<br>
+                        - Todo trabaja junto para formar tu aplicación Vue.<br>
                     </h3>
                     <p>Con esto ya entiendes cómo está formado un proyecto Vue y cómo se conecta todo por dentro.
-En el siguiente capítulo aprenderás sobre los **componentes** y cómo crear tus propias partes
-interactivas dentro de la aplicación.</p>
+                        En el siguiente capítulo aprenderás sobre los **componentes** y cómo crear tus propias partes
+                        interactivas dentro de la aplicación.</p>
                 </div>
 
             </div>
@@ -405,7 +406,8 @@ section {
 .text1 img,
 .text2 img {
 
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
 }
 </style>

@@ -93,7 +93,7 @@
                         especial.
                     </h3>
                     <p>La estructura básica es así:</p>
-                    <img src="../assets/instalacion/ejemplo4.png" alt="">
+                    <img src="../assets/instalacion/ejemplo4.jpeg" alt="">
                     <p>Qué significa cada cosa:</p>
                     <h3>- index.html → es la página principal del proyecto.<br>
                         - package.json → guarda la información del proyecto y los comandos.<br>
@@ -378,7 +378,7 @@ section {
 
 .text2 img {
 
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 500px;
 }
 </style>
